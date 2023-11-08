@@ -14,9 +14,9 @@ import datetime
 headers = ["dateTime, touch_head, touch_body, wheel_speed, sonar, odom, kinematic_joints, battery, light, cliff"]
 # file = pd.read_csv("metadata.csv") 
 # file.to_csv("metadata.csv", header=headers, index=False) 
-with open('metadata.csv', 'w') as file:
-    writer = csv.writer(file) 
-    writer.writerow(headers)
+with open('metadata.csv', 'wb') as file:
+    writer = csv.writer(file, delimiter = ',')
+    writer.writerows([x.split(',') for x in headers])
     file.close()
 
 
@@ -31,13 +31,13 @@ def callback(touch_head, touch_body, wheel_speed, sonar, odom, kinematic_joints,
     # rospy.loginfo("Light: [%s]", light.data)
     # rospy.loginfo("Cliff: [%s]", cliff)
     dataList = []
-    dataList.append([datetime.datetime.now(), touch_head.data, touch_body.data])
+    dataList.append([datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), touch_head.data, touch_body.data, wheel_speed.data, sonar, odom, kinematic_joints, battery, light, cliff])
 
     # print(touch_head.data)
     # print(len(dataDict))
 
     data = dataList
-    with open('metadata.csv', 'w') as file:
+    with open('metadata.csv', 'a') as file:
         writer = csv.writer(file) 
         writer.writerow(data[0])
         file.close()

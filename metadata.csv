@@ -1,0 +1,1315 @@
+dateTime, touch_head, touch_body, wheel_speed, sonar, odom, kinematic_joints, battery, light, cliff
+2023-07-25 10:19:05,0,0,"(0.0, 0.0)","header: 
+  seq: 364755
+  stamp: 
+    secs: 1690276745
+    nsecs: 954750539
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.321733981371","header: 
+  seq: 364755
+  stamp: 
+    secs: 1690276745
+    nsecs: 954750539
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364755
+  stamp: 
+    secs: 1690276745
+    nsecs: 954750539
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364755
+  stamp: 
+    secs: 1690276745
+    nsecs: 954750539
+  frame_id: ""body_link""
+voltage: 5.14743566513
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.101806640625, 0.069580078125, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8666667342185974, 0.9333333969116211]"
+2023-07-25 10:19:05,0,0,"(0.0, 0.0)","header: 
+  seq: 364756
+  stamp: 
+    secs: 1690276745
+    nsecs: 974965226
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.321047991514","header: 
+  seq: 364756
+  stamp: 
+    secs: 1690276745
+    nsecs: 974965226
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364756
+  stamp: 
+    secs: 1690276745
+    nsecs: 974965226
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364756
+  stamp: 
+    secs: 1690276745
+    nsecs: 974965226
+  frame_id: ""body_link""
+voltage: 5.16153812408
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.101806640625, 0.069580078125, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8666667342185974, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364757
+  stamp: 
+    secs: 1690276745
+    nsecs: 994577882
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.316246002913","header: 
+  seq: 364757
+  stamp: 
+    secs: 1690276745
+    nsecs: 994577882
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364757
+  stamp: 
+    secs: 1690276745
+    nsecs: 994577882
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364757
+  stamp: 
+    secs: 1690276745
+    nsecs: 994577882
+  frame_id: ""body_link""
+voltage: 5.14945030212
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.101806640625, 0.069580078125, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8666667342185974, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364758
+  stamp: 
+    secs: 1690276746
+    nsecs:  14992361
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.315902978182","header: 
+  seq: 364759
+  stamp: 
+    secs: 1690276746
+    nsecs:  34903924
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364759
+  stamp: 
+    secs: 1690276746
+    nsecs:  34903924
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364758
+  stamp: 
+    secs: 1690276746
+    nsecs:  14992361
+  frame_id: ""body_link""
+voltage: 5.14743566513
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.1015625, 0.069580078125, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8666667342185974, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364759
+  stamp: 
+    secs: 1690276746
+    nsecs:  34903924
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.224493488669","header: 
+  seq: 364760
+  stamp: 
+    secs: 1690276746
+    nsecs:  55358559
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364761
+  stamp: 
+    secs: 1690276746
+    nsecs:  75331424
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364759
+  stamp: 
+    secs: 1690276746
+    nsecs:  34903924
+  frame_id: ""body_link""
+voltage: 5.14743566513
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.1015625, 0.069580078125, 0.00341796875, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8666667342185974, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364761
+  stamp: 
+    secs: 1690276746
+    nsecs:  75331424
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.325335502625","header: 
+  seq: 364762
+  stamp: 
+    secs: 1690276746
+    nsecs:  94910434
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364762
+  stamp: 
+    secs: 1690276746
+    nsecs:  94910434
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364761
+  stamp: 
+    secs: 1690276746
+    nsecs:  75331424
+  frame_id: ""body_link""
+voltage: 5.14945030212
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.101806640625, 0.069091796875, 0.00341796875, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8666667342185974, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364762
+  stamp: 
+    secs: 1690276746
+    nsecs:  94910434
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.347458988428","header: 
+  seq: 364763
+  stamp: 
+    secs: 1690276746
+    nsecs: 115316684
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364763
+  stamp: 
+    secs: 1690276746
+    nsecs: 115316684
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364762
+  stamp: 
+    secs: 1690276746
+    nsecs:  94910434
+  frame_id: ""body_link""
+voltage: 5.14542102814
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.1015625, 0.0693359375, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8666667342185974, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364765
+  stamp: 
+    secs: 1690276746
+    nsecs: 154527049
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.211287990212","header: 
+  seq: 364765
+  stamp: 
+    secs: 1690276746
+    nsecs: 154527049
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364765
+  stamp: 
+    secs: 1690276746
+    nsecs: 154527049
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364764
+  stamp: 
+    secs: 1690276746
+    nsecs: 135037205
+  frame_id: ""body_link""
+voltage: 5.14743566513
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.101318359375, 0.06884765625, 0.00341796875, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364766
+  stamp: 
+    secs: 1690276746
+    nsecs: 174707986
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.215575501323","header: 
+  seq: 364767
+  stamp: 
+    secs: 1690276746
+    nsecs: 194683768
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364764
+  stamp: 
+    secs: 1690276746
+    nsecs: 135037205
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364765
+  stamp: 
+    secs: 1690276746
+    nsecs: 154527049
+  frame_id: ""body_link""
+voltage: 5.14945030212
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.101318359375, 0.06884765625, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364767
+  stamp: 
+    secs: 1690276746
+    nsecs: 194683768
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.220034494996","header: 
+  seq: 364768
+  stamp: 
+    secs: 1690276746
+    nsecs: 214598195
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364766
+  stamp: 
+    secs: 1690276746
+    nsecs: 174707986
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364766
+  stamp: 
+    secs: 1690276746
+    nsecs: 174707986
+  frame_id: ""body_link""
+voltage: 5.14945030212
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.101318359375, 0.068603515625, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364768
+  stamp: 
+    secs: 1690276746
+    nsecs: 214598195
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.3471159935","header: 
+  seq: 364766
+  stamp: 
+    secs: 1690276746
+    nsecs: 174707986
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364767
+  stamp: 
+    secs: 1690276746
+    nsecs: 194683768
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364767
+  stamp: 
+    secs: 1690276746
+    nsecs: 194683768
+  frame_id: ""body_link""
+voltage: 5.14743566513
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.1015625, 0.068603515625, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364769
+  stamp: 
+    secs: 1690276746
+    nsecs: 235183455
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.342656999826","header: 
+  seq: 364769
+  stamp: 
+    secs: 1690276746
+    nsecs: 235183455
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364768
+  stamp: 
+    secs: 1690276746
+    nsecs: 214598195
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364768
+  stamp: 
+    secs: 1690276746
+    nsecs: 214598195
+  frame_id: ""body_link""
+voltage: 5.14340639114
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.1015625, 0.068603515625, 0.00341796875, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364770
+  stamp: 
+    secs: 1690276746
+    nsecs: 254570382
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.342656999826","header: 
+  seq: 364770
+  stamp: 
+    secs: 1690276746
+    nsecs: 254570382
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364769
+  stamp: 
+    secs: 1690276746
+    nsecs: 235183455
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364769
+  stamp: 
+    secs: 1690276746
+    nsecs: 235183455
+  frame_id: ""body_link""
+voltage: 5.15146493912
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.101806640625, 0.06884765625, 0.00341796875, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364771
+  stamp: 
+    secs: 1690276746
+    nsecs: 274924861
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.338369488716","header: 
+  seq: 364771
+  stamp: 
+    secs: 1690276746
+    nsecs: 274924861
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364770
+  stamp: 
+    secs: 1690276746
+    nsecs: 254570382
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364770
+  stamp: 
+    secs: 1690276746
+    nsecs: 254570382
+  frame_id: ""body_link""
+voltage: 5.14945030212
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.101806640625, 0.06884765625, 0.00341796875, 0.01416015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364772
+  stamp: 
+    secs: 1690276746
+    nsecs: 294817466
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.198425501585","header: 
+  seq: 364772
+  stamp: 
+    secs: 1690276746
+    nsecs: 294817466
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364771
+  stamp: 
+    secs: 1690276746
+    nsecs: 274924861
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16984547674655914, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364771
+  stamp: 
+    secs: 1690276746
+    nsecs: 274924861
+  frame_id: ""body_link""
+voltage: 5.15347957611
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.10205078125, 0.0693359375, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:06,0,0,"(0.0, 0.0)","header: 
+  seq: 364773
+  stamp: 
+    secs: 1690276746
+    nsecs: 314720434
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.338198006153","header: 
+  seq: 364773
+  stamp: 
+    secs: 1690276746
+    nsecs: 314720434
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364773
+  stamp: 
+    secs: 1690276746
+    nsecs: 314720434
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364773
+  stamp: 
+    secs: 1690276746
+    nsecs: 314720434
+  frame_id: ""body_link""
+voltage: 5.14945030212
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.102294921875, 0.0693359375, 0.00341796875, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:08,0,0,"(0.0, 0.0)","header: 
+  seq: 364776
+  stamp: 
+    secs: 1690276746
+    nsecs: 374677413
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.215746998787","header: 
+  seq: 364776
+  stamp: 
+    secs: 1690276746
+    nsecs: 374677413
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364776
+  stamp: 
+    secs: 1690276746
+    nsecs: 374677413
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364780
+  stamp: 
+    secs: 1690276746
+    nsecs: 455243872
+  frame_id: ""body_link""
+voltage: 5.16153812408
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.102294921875, 0.069580078125, 0.003173828125, 0.013916015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8000000715255737, 0.9333333969116211]"
+2023-07-25 10:19:08,0,0,"(0.0, 0.0)","header: 
+  seq: 364778
+  stamp: 
+    secs: 1690276746
+    nsecs: 414549184
+  frame_id: ""head_sonar""
+radiation_type: 0
+field_of_view: 0.300000011921
+min_range: 0.0
+max_range: 1.0
+range: 0.207171991467","header: 
+  seq: 364778
+  stamp: 
+    secs: 1690276746
+    nsecs: 414549184
+  frame_id: ""odom""
+child_frame_id: ""base_link""
+pose: 
+  pose: 
+    position: 
+      x: -0.000887573754881
+      y: 9.60584839049e-06
+      z: 0.0
+    orientation: 
+      x: 0.0
+      y: 0.0
+      z: -0.00541169209118
+      w: 0.999985356687
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+twist: 
+  twist: 
+    linear: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    angular: 
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364778
+  stamp: 
+    secs: 1690276746
+    nsecs: 414549184
+  frame_id: ''
+name: [tilt, lift, yaw, pitch]
+position: [-0.10471975803375244, 0.5461475849151611, -0.16725242137908936, 0.23990342020988464]
+velocity: []
+effort: [0.0, 0.0, 0.0, 0.0]","header: 
+  seq: 364781
+  stamp: 
+    secs: 1690276746
+    nsecs: 474570695
+  frame_id: ""body_link""
+voltage: 5.16355276108
+current: nan
+charge: nan
+capacity: nan
+design_capacity: nan
+percentage: nan
+power_supply_status: 0
+power_supply_health: 0
+power_supply_technology: 0
+present: True
+cell_voltage: []
+location: ''
+serial_number: ''","layout: 
+  dim: []
+  data_offset: 0
+data: [0.102294921875, 0.069580078125, 0.00341796875, 0.01416015625]","layout: 
+  dim: []
+  data_offset: 0
+data: [0.8666667342185974, 0.9333333969116211]"
