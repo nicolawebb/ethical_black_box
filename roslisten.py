@@ -9,13 +9,16 @@ from sensor_msgs.msg import Image, CameraInfo, Range, JointState, BatteryState
 from std_msgs.msg import Int32, UInt16, Float32MultiArray
 from nav_msgs.msg import Odometry
 import csv
-import pandas as pd 
-import numpy as np
 import datetime
 
 headers = ["dateTime, touch_head, touch_body, wheel_speed, sonar, odom, kinematic_joints, battery, light, cliff"]
-file = pd.read_csv("metadata.csv") 
-file.to_csv("metadata.csv", header=headers, index=False) 
+# file = pd.read_csv("metadata.csv") 
+# file.to_csv("metadata.csv", header=headers, index=False) 
+with open('metadata.csv', 'w') as file:
+    writer = csv.writer(file) 
+    writer.writerow(headers)
+    file.close()
+
 
 def callback(touch_head, touch_body, wheel_speed, sonar, odom, kinematic_joints, battery, light, cliff):
     # rospy.loginfo("Head touch: [%i]", touch_head.data)
@@ -34,10 +37,10 @@ def callback(touch_head, touch_body, wheel_speed, sonar, odom, kinematic_joints,
     # print(len(dataDict))
 
     data = dataList
-    myFile = open('metadata.csv', 'r+')
-    writer = csv.writer(myFile) 
-    writer.writerow(data)
-    myFile.close()
+    with open('metadata.csv', 'w') as file:
+        writer = csv.writer(file) 
+        writer.writerow(data[0])
+        file.close()
 
     print(dataList[0])
 
